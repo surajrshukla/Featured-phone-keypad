@@ -15,7 +15,6 @@ $(document).ready(function () {
             keypressTimeout = null;
         }, delay);
     }).bind('mouseup', function (ev) {
-        debugger;
         clearTimeout(keypressTimeout);
         if (!keypressTimeout) {
             return false;
