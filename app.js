@@ -1,4 +1,4 @@
-"use-strict"
+"use strict"
 $(document).ready(function () {
     let counter = 0;
     var currentText;
